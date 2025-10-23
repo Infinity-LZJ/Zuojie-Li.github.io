@@ -55,7 +55,7 @@ Publications (1st. author)
 * Dalton Trans, 2021, 50(1):362-375.
 * Monatsh Chem,  2020, 151(3): 353-367.
 * J Liaocheng Univ , 2020, 33(5): 97-103. 
-* Mini Rew Med Chem , 2025, XX
+* Mini Rew Med Chem , 2025, 25(17): 1321 - 1333.
 
 Awards
 ======
