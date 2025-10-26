@@ -13,7 +13,7 @@ Basic
 ======
 * Born: December 1996​
 * party: Member of the Communist Party of China
-* Workplace: Postdoc. Key Laboratory of Radiopharmaceuticals/Beam Technology of the Ministry of Education,Beijing Normal University
+* Workplace: Postdoc. Key Laboratory of Radiopharmaceuticals / Beam Technology of the Ministry of Education, Beijing Normal University
 
 Education
 ======
