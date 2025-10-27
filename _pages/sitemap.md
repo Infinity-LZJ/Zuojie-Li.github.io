@@ -46,9 +46,9 @@ author_profile: true
 * Mol Pharm,  2024, 21(10): 5305-5314.
 * Dalton Trans,  2022, 51(33): 12604-12619.
 * Dalton Trans, 2021, 50(1):362-375.
+* Mini Rew Med Chem , 2025, 25(17), 1321-1333.
 * Monatsh Chem,  2020, 151(3): 353-367.
 * J Liaocheng Univ , 2020, 33(5): 97-103. 
-* Mini Rew Med Chem , 2025, XX
 
 奖项荣誉
 ======
