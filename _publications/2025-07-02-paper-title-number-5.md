@@ -1,19 +1,19 @@
 ---
-title: "Development of a series of flurbiprofen and zaltoprofen platinum(IV) complexes with anti-metastasis competence targeting COX-2, PD-L1 and DNA"
+title: "Design, Synthesis, and Evaluation of a Novel 99mTc-Labeled Small Molecule Inhibitor (Lapatinib)-Based SPECT Tracer Targeting HER2"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-07-02-paper-title-number-5
-excerpt: 'Zuojie Li, Linming Li, Wenhuan Zhao, Bin Sun, Zhifang Liu, Min Liu, Jun Han, Zhengping Wang, Dacheng Li, Qingpeng Wang'
-date: 2022-08-23
-venue: 'Dalton Transactions'
+excerpt: 'Zuojie Li, Lina Diao, Peiwen Han, Qingna Xiao, Dajie Ding, Junhong Feng, Jianyong Jiang, Junbo Zhang'
+date: 2025-10-31
+venue: 'Journal of medicinal chemistry'
 slidesurl: 'https://Zuojie-Li.github.io/files/slides4.pdf'
 paperurl: 'https://Zuojie-Li.github.io/files/paper6.pdf'
 bibtexurl: #'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Dalton Trans. 2022;51(33):12604-12619.'
+citation: 'J Med Chem, 2025, 64(24): 17920-17935.'
 ---
 # Abstract
-To develop new anti-metastasis chemotherapeutic drugs, a series of flurbiprofen (FLP) and zaltoprofen (ZTP) platinum(IV) complexes targeting COX-2, PD-L1 and DNA was prepared and investigated. Complex 2 with dual FLP ligands displays promising antitumor activities in vitro and exhibits much potential in overcoming drug resistance. More importantly, the antitumor evaluation in vivo demonstrates that complex 2 possesses promising inhibition of cancer growth and metastasis simultaneously. Further investigation of the mechanism revealed the multi-specific antitumor function of complex 2. It exerts remarkable DNA damage after reduction to platinum(II) complex, and up-regulates the expression of p53 and γ-H2AX. Then, complex 2 promotes mitochondria-mediated apoptosis effectively by activating the Bcl-2/Bax/caspase3 pathway. Furthermore, inflammation in tumor tissues is restrained by the suppression of enzymes COX-2, MMP-9, NLRP3 and caspase1, which would favor the inhibition of tumor metastasis. Moreover, compound 2 boosts T-cell immunity by restraining PD-L1 expression, and further improving the density of CD3+ and CD8+ T cells in tumor tissues.
+Radiolabeled human epidermal growth factor receptor 2 (HER2) tracers are important tools for the accurate clinical diagnosis and treatment of HER2-positive tumors. The aim of this study was to investigate the potential of small molecule inhibitors (lapatinib) as target groups for novel radiotracers targeting HER2. Twelve stable radiotracers were prepared by chelation with different coligands. The relationships between the linker and the combination of coligands with pharmacodynamics were systematically evaluated. [99mTc]Tc-Lapa-HYNIC-TPPTS exhibits the most favorable pharmacokinetic properties, as it can stably bind to the active pocket of the HER2 protein. Both in vitro and in vivo studies demonstrated its high targeting specificity toward HER2. SPECT images of [99mTc]Tc-LapaHYNIC-TPPTS in HER2-positive model mice revealed that it can effectively locate tumors. This study is the first attempt at a 99mTc-labeled small-molecule inhibitor tracer targeting HER2, showing great potential for applications in the diagnosis of HER2-positive cancers.
 
 ![TOC](https://Zuojie-Li.github.io/files/TOC4.jpg "TOC")
 
-[Full Paper DOI](https://pubs.rsc.org/en/content/articlelanding/2022/dt/d2dt00944g)
+[Full Paper DOI](https://pubs.acs.org/doi/10.1021/acs.jmedchem.5c02789)
