@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2025-07-02-paper-title-number-2
 excerpt: 'Zuojie Li, Xiaojiang Duan, Peiwen Han, Guangxing Yin, Yuhao Jiang , Qing Ruan , Junbo Zhang'
 date: 2024-12-12
-venue: 'Journal of medicinal chemistry'
+venue: 'Journal of Medicinal Chemistry'
 slidesurl: 'https://Zuojie-Li.github.io/files/slides2.pdf'
 paperurl: 'https://Zuojie-Li.github.io/files/paper4.pdf'
 bibtexurl: #'http://academicpages.github.io/files/bibtex1.bib'
