@@ -3,7 +3,7 @@ title: "Current Status and Perspectives of Novel Radiopharmaceuticals with Heter
 collection: publications
 category: manuscripts
 permalink: /publication/2025-07-01-paper-title-number-1
-excerpt: 'Zuojie Li, Qing Ruan, Yuhao Jiang, Qianna Wang, Guangxing Yin, Junhong Feng, Junbo Zhang<sup>*</sup> '
+excerpt: 'Zuojie Li, Qing Ruan, Yuhao Jiang, Qianna Wang, Guangxing Yin, Junhong Feng, Junbo Zhang'
 date: 2024-12-26
 venue: 'Journal of medicinal chemistry'
 slidesurl: 'https://Zuojie-Li.github.io/files/slides1.pdf'
