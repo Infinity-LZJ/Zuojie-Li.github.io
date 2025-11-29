@@ -3,7 +3,7 @@ title: "Design, Synthesis and Evaluation of <sup>99m</sup>Tc Labelled Aminoadipi
 collection: publications
 category: manuscripts
 permalink: /publication/2025-07-02-paper-title-number-4
-excerpt: 'Zuojie Li, Peiwen Han, Lina Diao, Jianyong Jiang<sup>*</sup>, Junbo Zhang<sup>*</sup>'
+excerpt: 'Zuojie Li, Peiwen Han, Lina Diao, Jianyong Jiang, Junbo Zhang'
 date: 2024-10-7
 venue: 'Journal of medicinal chemistry'
 slidesurl: 'https://Zuojie-Li.github.io/files/slides3.pdf'
