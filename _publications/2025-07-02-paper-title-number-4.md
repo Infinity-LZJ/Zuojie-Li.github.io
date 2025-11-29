@@ -1,11 +1,11 @@
 ---
-title: "Synthesis and Evaluation of 99mTc-Labeled DPro-Gly-Containing Tracers Targeting PSMA"
+title: "Design, Synthesis and Evaluation of 99mTc Labelled Aminoadipic Acid-urea-Lysine (AuK) as a Novel SPECT Tracer Targeting PSMA"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-07-02-paper-title-number-4
-excerpt: 'Zuojie Li, Yuhao Jiang, Qing Ruan, Guangxing Yin, Peiwen Han, Xiaojiang Duan, Junbo Zhang'
+excerpt: 'Zuojie Li, Peiwen Han, Lina Diao, Jianyong Jiang, Junbo Zhang'
 date: 2024-10-7
-venue: 'Molecular Pharmaceutics'
+venue: 'Journal of medicinal chemistry'
 slidesurl: 'https://Zuojie-Li.github.io/files/slides3.pdf'
 paperurl: 'https://Zuojie-Li.github.io/files/paper5.pdf'
 bibtexurl: #'http://academicpages.github.io/files/bibtex1.bib'
