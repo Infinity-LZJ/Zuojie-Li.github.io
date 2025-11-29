@@ -3,7 +3,7 @@ title: "Design, Synthesis, and Evaluation of a Novel <sup>99m</sup>Tc-Labeled Sm
 collection: publications
 category: manuscripts
 permalink: /publication/2025-07-02-paper-title-number-5
-excerpt: 'Zuojie Li, Lina Diao, Peiwen Han, Qingna Xiao, Dajie Ding, Junhong Feng, Jianyong Jiang, Junbo Zhang'
+excerpt: 'Zuojie Li, Lina Diao, Peiwen Han, Qingna Xiao, Dajie Ding, Junhong Feng, Jianyong Jiang<sup>*</sup>, Junbo Zhang<sup>*</sup>'
 date: 2025-10-31
 venue: 'Journal of medicinal chemistry'
 slidesurl: 'https://Zuojie-Li.github.io/files/slides4.pdf'
