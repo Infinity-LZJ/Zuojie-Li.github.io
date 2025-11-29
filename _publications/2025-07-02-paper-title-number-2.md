@@ -3,7 +3,7 @@ title: "Synthesis and Evaluation of <sup>99m</sup>Tc-Labeled L-Aspartic Acid as 
 collection: publications
 category: manuscripts
 permalink: /publication/2025-07-02-paper-title-number-2
-excerpt: 'Zuojie Li, Xiaojiang Duan, Peiwen Han, Guangxing Yin, Yuhao Jiang , Qing Ruan , Junbo Zhang<sup>*</sup> '
+excerpt: 'Zuojie Li, Xiaojiang Duan, Peiwen Han, Guangxing Yin, Yuhao Jiang , Qing Ruan , Junbo Zhang'
 date: 2024-12-12
 venue: 'Journal of medicinal chemistry'
 slidesurl: 'https://Zuojie-Li.github.io/files/slides2.pdf'
