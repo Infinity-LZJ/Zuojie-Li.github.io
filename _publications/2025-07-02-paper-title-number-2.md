@@ -1,5 +1,5 @@
 ---
-title: "Synthesis and Evaluation of 99mTc-Labeled L-Aspartic Acid as a EuK Polymer Linker for Targeting PSMA to a Novel SPECT Tumor Tracer"
+title: "Synthesis and Evaluation of <sup> 99m </sup>Tc-Labeled L-Aspartic Acid as a EuK Polymer Linker for Targeting PSMA to a Novel SPECT Tumor Tracer"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-07-02-paper-title-number-2
