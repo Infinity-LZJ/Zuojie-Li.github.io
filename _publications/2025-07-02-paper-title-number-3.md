@@ -3,7 +3,7 @@ title: "Ketoprofen and Loxoprofen Platinum(IV) Complexes Displaying Antimetastat
 collection: publications
 category: manuscripts
 permalink: /publication/2025-07-02-paper-title-number-3
-excerpt: 'Zuojie Li, Qingpeng Wang, Linming Li, Yan Chen, Jichun Cui, Min Liu, Ning Zhang, Zhifang Liu, Jun Han, Zhengping Wang'
+excerpt: 'Zuojie Li, Qingpeng Wang<sup>*</sup>, Linming Li, Yan Chen, Jichun Cui, Min Liu, Ning Zhang, Zhifang Liu, Jun Han, Zhengping Wang'
 date: 2021-12-23
 venue: 'Journal of medicinal chemistry'
 slidesurl: 'https://Zuojie-Li.github.io/files/slides5.pdf'
