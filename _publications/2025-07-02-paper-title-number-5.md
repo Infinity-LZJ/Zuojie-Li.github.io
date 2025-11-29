@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2025-07-02-paper-title-number-5
 excerpt: 'Zuojie Li, Lina Diao, Peiwen Han, Qingna Xiao, Dajie Ding, Junhong Feng, Jianyong Jiang, Junbo Zhang'
 date: 2025-10-31
-venue: 'Journal of medicinal chemistry'
+venue: 'Journal of Medicinal Chemistry'
 slidesurl: 'https://Zuojie-Li.github.io/files/slides4.pdf'
 paperurl: 'https://Zuojie-Li.github.io/files/paper6.pdf'
 bibtexurl: #'http://academicpages.github.io/files/bibtex1.bib'
