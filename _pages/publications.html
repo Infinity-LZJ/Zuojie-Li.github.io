@@ -17,16 +17,35 @@ author_profile: true
 <div><b>♦ Monatsh Chem, 2020, 151(3), 353-367.</b></div> 
 <div><b>♦ J Liaocheng Univ, 2020, 33(5), 97-103.</b></div> 
 <div style="margin-top: 20px;"></div>
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my all articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+<style>
+.animated-break {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.animated-break span {
+    display: inline-block;
+    margin: 0 5px;
+    color: #3498db;
+    animation: bounce 1.5s infinite;
+}
+
+.animated-break span:nth-child(2) { animation-delay: 0.2s; }
+.animated-break span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+</style>
+
 <div class="animated-break">
     <span>•</span>
     <span>•</span>
     <span>•</span>
-    <span>•</span>
-    <span>•</span>
-    <span>•</span>
 </div>
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my all articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 {% include base_path %}
