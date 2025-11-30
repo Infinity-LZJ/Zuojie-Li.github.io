@@ -69,3 +69,37 @@ About Me
 ======
 Be true to yourself, and respect others.
 
+<style>
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.earth-spin {
+  display: inline-block;
+  animation: spin 3s linear infinite;
+  font-size: 30px;
+}
+
+.space-animation {
+  text-align: center;
+  background: #f8f9fa;
+  color: white;
+  padding: 25px;
+  border-radius: 15px;
+  margin: 30px 0;
+  font-family: 'Courier New', monospace;
+}
+</style>
+
+<div class="space-animation">
+  <div class="earth-spin">🌍</div>
+  <div style="margin-top: 15px;">
+    <span style="animation: bounce 2s infinite 0s;">🛰</span>
+    <span style="animation: bounce 2s infinite 0.3s;">✨</span>
+    <span style="animation: bounce 2s infinite 0.6s;">👋</span>
+  </div>
+  <div style="margin-top: 10px; font-size: 14px; opacity: 0.8;">
+    探索无限可能 • 创造美好未来
+  </div>
+</div>
