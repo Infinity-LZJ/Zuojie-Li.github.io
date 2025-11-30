@@ -101,7 +101,7 @@ Be true to yourself, and respect others.
     <span style="animation: bounce 2s infinite 0.9s;">👋</span>
     <span style="animation: bounce 2s infinite 102s;">🎯</span>
   </div>
-  <div style="margin-top: 10px; color: #666; font-size: 18px; opacity: 0.8;">
+  <div style="margin-top: 10px; color: #666; font-size: 22px; opacity: 0.8;">
     Thanks • Looking forward to our next meeting
   </div>
 </div>
