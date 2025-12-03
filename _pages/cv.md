@@ -69,6 +69,35 @@ About Me
 ======
 Be true to yourself, and respect others.
 
+<div style="
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #3498db, #2ecc71, #3498db);
+    background-size: 200% 100%;
+    animation: gradientShift 4s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Helvetica Neue', sans-serif;
+">
+    Be true to yourself, and respect others.
+</div>
+
+<style>
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+</style>
+
 <style>
 @keyframes spin {
   0% { transform: rotate(0deg); }
