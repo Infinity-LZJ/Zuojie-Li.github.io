@@ -7,6 +7,33 @@ author_profile: true
 <div style="
     font-weight: bold; 
     font-size: 1.3rem; 
+    background: linear-gradient(90deg, #ff1493, #ff69b4, #ff1493);
+    background-size: 200% 100%;
+    animation: gradientShift 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 20px;
+    text-align: center;
+">
+  <b>Full List (1st. author)</b>
+</div>
+
+<style>
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+</style>
+<div style="
+    font-weight: bold; 
+    font-size: 1.3rem; 
     color: deeppink;
     animation: breathe 3s ease-in-out infinite;
     text-shadow: 0 0 10px rgba(255, 20, 147, 0.5);
