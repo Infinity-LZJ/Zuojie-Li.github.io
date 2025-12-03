@@ -67,36 +67,41 @@ Awards
 
 About Me
 ======
-Be true to yourself, and respect others.
-
 <div style="
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
-    background: linear-gradient(90deg, #3498db, #2ecc71, #3498db);
+    background: linear-gradient(90deg, 
+        #ff6b6b,  /* 柔和红 */
+        #ffa726,  /* 柔和橙 */
+        #ffd93d,  /* 柔和黄 */
+        #4cd964,  /* 柔和绿 */
+        #5ac8fa,  /* 柔和蓝 */
+        #af52de,  /* 柔和紫 */
+        #ff6b6b   /* 回到柔和红 */
+    );
     background-size: 200% 100%;
-    animation: gradientShift 4s linear infinite;
+    animation: softRainbow 10s ease-in-out infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-align: center;
+    text-align: left;
     padding: 20px;
     font-family: 'Helvetica Neue', sans-serif;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
 ">
     Be true to yourself, and respect others.
 </div>
 
 <style>
-@keyframes gradientShift {
-    0% {
+@keyframes softRainbow {
+    0%, 100% {
         background-position: 0% 50%;
     }
     50% {
         background-position: 100% 50%;
     }
-    100% {
-        background-position: 0% 50%;
-    }
 }
 </style>
+
 
 <style>
 @keyframes spin {
