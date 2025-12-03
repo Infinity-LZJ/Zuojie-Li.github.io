@@ -102,52 +102,30 @@ About Me
 }
 </style>
 
-<div id="stars-animation" style="
+<div style="
     position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 150px;
-    z-index: 998;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
     pointer-events: none;
-    background: linear-gradient(to top, rgba(0,0,0,0.1), transparent);
 ">
-    <!-- 星星将通过JS动态生成 -->
+    <div style="
+        font-size: 3rem;
+        animation: heartbeat 1.2s ease-in-out infinite;
+        color: #ff6b9d;
+        filter: drop-shadow(0 0 10px rgba(255, 107, 157, 0.5));
+    ">
+        ❤️
+    </div>
 </div>
 
-<script>
-function createStars() {
-    const container = document.getElementById('stars-animation');
-    const starCount = 20;
-    
-    for (let i = 0; i < starCount; i++) {
-        const star = document.createElement('div');
-        const size = Math.random() * 15 + 5;
-        const left = Math.random() * 100;
-        const top = Math.random() * 150;
-        const duration = Math.random() * 2 + 1;
-        const delay = Math.random() * 3;
-        
-        star.style.cssText = `
-            position: absolute;
-            width: ${size}px;
-            height: ${size}px;
-            background: radial-gradient(circle, #fff 30%, #ffeb3b 70%);
-            border-radius: 50%;
-            left: ${left}%;
-            top: ${top}px;
-            animation: twinkle ${duration}s ease-in-out infinite ${delay}s;
-            filter: drop-shadow(0 0 5px #ffeb3b);
-        `;
-        
-        container.appendChild(star);
+<style>
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
     }
 }
-
-// 页面加载后创建星星
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', createStars);
-} else {
-    createStars();
-}
-</script>
+</style>
