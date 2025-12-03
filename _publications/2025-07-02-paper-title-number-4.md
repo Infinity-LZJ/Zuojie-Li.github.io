@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2025-07-02-paper-title-number-4
 excerpt: 'Zuojie Li, Peiwen Han, Lina Diao, Jianyong Jiang, Junbo Zhang'
-date: 2025-12-xx
+date: 2025-12-31
 venue:  'Journal of Medicinal Chemistry'
 slidesurl: 'https://Zuojie-Li.github.io/files/slides3.pdf'
 paperurl: 'https://Zuojie-Li.github.io/files/paper5.pdf'
