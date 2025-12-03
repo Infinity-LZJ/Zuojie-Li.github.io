@@ -102,40 +102,52 @@ About Me
 }
 </style>
 
-
-<style>
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-.earth-spin {
-  display: inline-block;
-  animation: spin 3s linear infinite;
-  font-size: 30px;
-}
-
-.space-animation {
-  text-align: center;
-  background: #f8f9fa;
-  color: white;
-  padding: 25px;
-  border-radius: 15px;
-  margin: 30px 0;
-  font-family: 'Courier New', monospace;
-}
-</style>
-
-<div class="space-animation">
-  <div class="earth-spin">🌍</div>
-  <div style="margin-top: 10px;">
-    <span style="animation: bounce 2s infinite 0s;">🌟</span>
-    <span style="animation: bounce 2s infinite 0.3s;">✨</span>
-    <span style="animation: bounce 2s infinite 0.6s;">🚀</span>
-    <span style="animation: bounce 2s infinite 0.9s;">👋</span>
-    <span style="animation: bounce 2s infinite 102s;">🎯</span>
-  </div>
-  <div style="margin-top: 10px; color: #666; font-size: 20px; opacity: 0.8;">
-    Thanks • Looking forward to our next meeting
-  </div>
+<div id="stars-animation" style="
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    z-index: 998;
+    pointer-events: none;
+    background: linear-gradient(to top, rgba(0,0,0,0.1), transparent);
+">
+    <!-- 星星将通过JS动态生成 -->
 </div>
+
+<script>
+function createStars() {
+    const container = document.getElementById('stars-animation');
+    const starCount = 20;
+    
+    for (let i = 0; i < starCount; i++) {
+        const star = document.createElement('div');
+        const size = Math.random() * 15 + 5;
+        const left = Math.random() * 100;
+        const top = Math.random() * 150;
+        const duration = Math.random() * 2 + 1;
+        const delay = Math.random() * 3;
+        
+        star.style.cssText = `
+            position: absolute;
+            width: ${size}px;
+            height: ${size}px;
+            background: radial-gradient(circle, #fff 30%, #ffeb3b 70%);
+            border-radius: 50%;
+            left: ${left}%;
+            top: ${top}px;
+            animation: twinkle ${duration}s ease-in-out infinite ${delay}s;
+            filter: drop-shadow(0 0 5px #ffeb3b);
+        `;
+        
+        container.appendChild(star);
+    }
+}
+
+// 页面加载后创建星星
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', createStars);
+} else {
+    createStars();
+}
+</script>
