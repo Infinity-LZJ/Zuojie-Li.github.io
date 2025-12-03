@@ -102,52 +102,151 @@ About Me
 }
 </style>
 
-<div id="stars-animation" style="
+<div id="cute-animation" style="
     position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    bottom: 20px;
+    right: 20px;
+    width: 150px;
     height: 150px;
-    z-index: 998;
+    z-index: 1000;
     pointer-events: none;
-    background: linear-gradient(to top, rgba(0,0,0,0.1), transparent);
 ">
-    <!-- 星星将通过JS动态生成 -->
+    <!-- 小猫动画 -->
+    <div style="
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        animation: floatCat 6s ease-in-out infinite;
+    ">
+        <div style="
+            position: absolute;
+            width: 40px;
+            height: 30px;
+            background: #FFB6C1;
+            border-radius: 50% 50% 40% 40%;
+            top: 0;
+            left: 10px;
+        "></div>
+        <div style="
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: black;
+            border-radius: 50%;
+            top: 10px;
+            left: 20px;
+        "></div>
+        <div style="
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: black;
+            border-radius: 50%;
+            top: 10px;
+            left: 30px;
+        "></div>
+    </div>
+    
+    <!-- 小狗动画 -->
+    <div style="
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        animation: floatDog 8s ease-in-out infinite 1s;
+    ">
+        <div style="
+            position: absolute;
+            width: 40px;
+            height: 30px;
+            background: #FFD700;
+            border-radius: 50% 50% 40% 40%;
+            top: 0;
+            left: 10px;
+        "></div>
+        <div style="
+            position: absolute;
+            width: 25px;
+            height: 15px;
+            background: #FFD700;
+            border-radius: 50%;
+            top: 5px;
+            left: 0;
+            transform: rotate(-20deg);
+        "></div>
+    </div>
 </div>
 
-<script>
-function createStars() {
-    const container = document.getElementById('stars-animation');
-    const starCount = 20;
-    
-    for (let i = 0; i < starCount; i++) {
-        const star = document.createElement('div');
-        const size = Math.random() * 15 + 5;
-        const left = Math.random() * 100;
-        const top = Math.random() * 150;
-        const duration = Math.random() * 2 + 1;
-        const delay = Math.random() * 3;
-        
-        star.style.cssText = `
-            position: absolute;
-            width: ${size}px;
-            height: ${size}px;
-            background: radial-gradient(circle, #fff 30%, #ffeb3b 70%);
-            border-radius: 50%;
-            left: ${left}%;
-            top: ${top}px;
-            animation: twinkle ${duration}s ease-in-out infinite ${delay}s;
-            filter: drop-shadow(0 0 5px #ffeb3b);
-        `;
-        
-        container.appendChild(star);
+<style>
+@keyframes floatCat {
+    0%, 100% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    25% {
+        transform: translate(30px, -40px) rotate(5deg);
+    }
+    50% {
+        transform: translate(60px, 0) rotate(0deg);
+    }
+    75% {
+        transform: translate(30px, -40px) rotate(-5deg);
     }
 }
 
-// 页面加载后创建星星
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', createStars);
-} else {
-    createStars();
+@keyframes floatDog {
+    0%, 100% {
+        transform: translate(80px, 0) rotate(0deg);
+    }
+    25% {
+        transform: translate(50px, -50px) rotate(5deg);
+    }
+    50% {
+        transform: translate(20px, 0) rotate(0deg);
+    }
+    75% {
+        transform: translate(50px, -50px) rotate(-5deg);
+    }
 }
-</script>
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+}
+
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes twinkle {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.5;
+        transform: scale(0.9);
+    }
+}
+</style>
