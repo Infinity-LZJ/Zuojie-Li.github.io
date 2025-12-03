@@ -101,31 +101,76 @@ About Me
     }
 }
 </style>
-
-<div style="
+<div id="bubble-animation" style="
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 1000;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 999;
     pointer-events: none;
+    overflow: hidden;
 ">
-    <div style="
-        font-size: 3rem;
-        animation: heartbeat 1.2s ease-in-out infinite;
-        color: #ff6b9d;
-        filter: drop-shadow(0 0 10px rgba(255, 107, 157, 0.5));
-    ">
-        ❤️
-    </div>
+    <!-- 动态生成的气泡 -->
 </div>
 
-<style>
-@keyframes heartbeat {
-    0%, 100% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.2);
+<script>
+// 动态创建气泡
+function createBubbles() {
+    const container = document.getElementById('bubble-animation');
+    const colors = ['#ffb6c1', '#87ceeb', '#98fb98', '#ffd700', '#dda0dd'];
+    
+    for (let i = 0; i < 15; i++) {
+        const bubble = document.createElement('div');
+        const size = Math.random() * 40 + 20;
+        const left = Math.random() * 100;
+        const duration = Math.random() * 10 + 10;
+        const delay = Math.random() * 5;
+        const color = colors[Math.floor(Math.random() * colors.length)];
+        
+        bubble.style.cssText = `
+            position: absolute;
+            width: ${size}px;
+            height: ${size}px;
+            background: ${color};
+            border-radius: 50%;
+            bottom: -50px;
+            left: ${left}%;
+            opacity: ${Math.random() * 0.4 + 0.2};
+            animation: bubbleUp ${duration}s ease-in infinite ${delay}s;
+            filter: blur(${Math.random() * 2}px);
+        `;
+        
+        container.appendChild(bubble);
     }
 }
-</style>
+
+// 添加气泡动画到CSS
+const style = document.createElement('style');
+style.textContent = `
+    @keyframes bubbleUp {
+        0% {
+            transform: translateY(0) scale(0.5);
+            opacity: 0;
+        }
+        10% {
+            opacity: 0.3;
+        }
+        90% {
+            opacity: 0.2;
+        }
+        100% {
+            transform: translateY(-100vh) scale(1.2);
+            opacity: 0;
+        }
+    }
+`;
+document.head.appendChild(style);
+
+// 页面加载后创建气泡
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', createBubbles);
+} else {
+    createBubbles();
+}
+</script>
