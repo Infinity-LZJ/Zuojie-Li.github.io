@@ -101,76 +101,53 @@ About Me
     }
 }
 </style>
-<div id="bubble-animation" style="
+
+<div id="stars-animation" style="
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 100px;
-    z-index: 999;
+    height: 150px;
+    z-index: 998;
     pointer-events: none;
-    overflow: hidden;
+    background: linear-gradient(to top, rgba(0,0,0,0.1), transparent);
 ">
-    <!-- 动态生成的气泡 -->
+    <!-- 星星将通过JS动态生成 -->
 </div>
 
 <script>
-// 动态创建气泡
-function createBubbles() {
-    const container = document.getElementById('bubble-animation');
-    const colors = ['#ffb6c1', '#87ceeb', '#98fb98', '#ffd700', '#dda0dd'];
+function createStars() {
+    const container = document.getElementById('stars-animation');
+    const starCount = 20;
     
-    for (let i = 0; i < 15; i++) {
-        const bubble = document.createElement('div');
-        const size = Math.random() * 40 + 20;
+    for (let i = 0; i < starCount; i++) {
+        const star = document.createElement('div');
+        const size = Math.random() * 15 + 5;
         const left = Math.random() * 100;
-        const duration = Math.random() * 10 + 10;
-        const delay = Math.random() * 5;
-        const color = colors[Math.floor(Math.random() * colors.length)];
+        const top = Math.random() * 150;
+        const duration = Math.random() * 2 + 1;
+        const delay = Math.random() * 3;
         
-        bubble.style.cssText = `
+        star.style.cssText = `
             position: absolute;
             width: ${size}px;
             height: ${size}px;
-            background: ${color};
+            background: radial-gradient(circle, #fff 30%, #ffeb3b 70%);
             border-radius: 50%;
-            bottom: -50px;
             left: ${left}%;
-            opacity: ${Math.random() * 0.4 + 0.2};
-            animation: bubbleUp ${duration}s ease-in infinite ${delay}s;
-            filter: blur(${Math.random() * 2}px);
+            top: ${top}px;
+            animation: twinkle ${duration}s ease-in-out infinite ${delay}s;
+            filter: drop-shadow(0 0 5px #ffeb3b);
         `;
         
-        container.appendChild(bubble);
+        container.appendChild(star);
     }
 }
 
-// 添加气泡动画到CSS
-const style = document.createElement('style');
-style.textContent = `
-    @keyframes bubbleUp {
-        0% {
-            transform: translateY(0) scale(0.5);
-            opacity: 0;
-        }
-        10% {
-            opacity: 0.3;
-        }
-        90% {
-            opacity: 0.2;
-        }
-        100% {
-            transform: translateY(-100vh) scale(1.2);
-            opacity: 0;
-        }
-    }
-`;
-document.head.appendChild(style);
-
-// 页面加载后创建气泡
+// 页面加载后创建星星
 if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', createBubbles);
+    document.addEventListener('DOMContentLoaded', createStars);
 } else {
-    createBubbles();
+    createStars();
 }
 </script>
