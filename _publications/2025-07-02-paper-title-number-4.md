@@ -17,4 +17,4 @@ The high kidney uptake of prostate-specific membrane antigen (PSMA) radiotracers
 
 ![TOC](https://Zuojie-Li.github.io/files/TOC3.jpg "TOC")
 
-[Full Paper DOI](https://pubs.acs.org/doi/10.1021/acs.molpharmaceut.4c0079)
+[Full Paper DOI](https://pubs.acs.org/doi/10.1021/acs.jmedchem.5c03275)
