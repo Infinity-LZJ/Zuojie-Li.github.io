@@ -1,5 +1,5 @@
 ---
-title: "JMC封面文章"
+title: "JMC封面文章（Front Cover）"
 excerpt: "Design, Synthesis and Evaluation of <sup>99m</sup>Tc Labelled Aminoadipic Acid-urea-Lysine (AuK) as a Novel SPECT Tracer Targeting PSMA<br/><img src='https://Zuojie-Li.github.io/files/wallpape3.jpg' alt='error'>"
 collection: portfolio
 ---
