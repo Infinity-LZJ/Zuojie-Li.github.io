@@ -8,5 +8,6 @@ About Cover
 ======
 The PSMA-targeting agent AuK aims to overcome renal hyperuptake in prostate cancer. Its radiotracer [<sup>99m</sup>Tc]Tc-AuK-NapLPRO-HYNIC-EDDA reduced kidney uptake while preserving tumor retention in mice, allowing for high-contrast SPECT/CT images within 2–4 hours and highlighting its clinical imaging potential.
 
+[View Online](https://pubs.acs.org/doi/10.1021/acs.jmedchem.5c03275)
 
 ![高清原图在线查看](https://Zuojie-Li.github.io/files/wallpape3.png "高清原图在线查看")
