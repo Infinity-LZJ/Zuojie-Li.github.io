@@ -6,7 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 <div class="nature-cover">
   <canvas id="natureCanvas" class="nature-bg"></canvas>
   <div class="cover-overlay">
