@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "HOME PAGE"
+title                    : "Announcement"
 title_separator          : "-"
 name                     : &name "Zuojie Li"
 description              : &description "personal description"
@@ -24,9 +24,9 @@ author:
   avatar           : "picture1.png"
   name             : "李作杰"
   pronouns         : # example: "男"  
-  bio              : " 山东泰安 射手座"
-  location         : "北京 中国"
-  employer         : "北京师范大学"
+  bio              : #" 山东泰安 射手座"
+  location         : #"北京 中国"
+  employer         : #"北京师范大学"
   uri              : # URL
   email            : #"ZuojieLi@yeah.net" 
 
