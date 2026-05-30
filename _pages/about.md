@@ -1,21 +1,21 @@
 ---
 permalink: /
-title: "网址停用，最新链接"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-# 🧪 Nature 论文封面风格 · 网络迁移动画
+# ✨ 网址停用，最新链接
 
 <div class="nature-cover">
   <canvas id="natureCanvas" class="nature-bg"></canvas>
   <div class="cover-overlay">
     <!-- 模拟期刊刊头 -->
     <div class="journal-header">
-      <span class="nature-logo">NATURE</span>
-      <span class="issue">学术迁移特刊 | 2026</span>
+      <span class="nature-logo">NATURE ACADEMIC</span>
+      <span class="issue">访问网址迁移特刊 | 2026</span>
     </div>
     <!-- 主视觉标题区 -->
     <div class="title-block">
@@ -29,26 +29,26 @@ redirect_from:
         <span class="badge-active">● 新站已上线</span>
       </div>
       <div class="doi-message">
-        <span class="doi-label">正式迁移公告 | DOI: 10.1038/s41586-026-00000-x</span>
+        <span class="doi-label">正式迁移公告 | DOI: 10.1038/s41586-026-00000-1</span>
       </div>
     </div>
     <!-- 新站点卡片（仿论文摘要框） -->
     <div class="site-card">
       <div class="card-inner">
         <div class="card-label">▸ 永久访问地址 ◂</div>
-        <div class="new-site-url" id="natureNewUrl">https://journal-naturehub.ac.cn</div>
+        <div class="new-site-url" id="natureNewUrl">https://zuojie-li.github.io</div>
         <div class="button-group">
           <a href="#" id="natureVisitBtn" class="primary-btn">访问新站点 →</a>
           <button id="natureEditBtn" class="edit-btn">✎ 编辑链接</button>
         </div>
-        <p class="footer-note">动态背景模拟学术引用网络 · 粒子交互影响连线引力</p>
+        <p class="footer-note">永远相信 · 美好的事情即将发生</p>
       </div>
     </div>
     <!-- 底部期刊信息栏 -->
     <div class="footer-bar">
-      <span>Macmillan Publishers Limited 2026</span>
+      <span>Springer Publishers Limited 2026</span>
       <span>|</span>
-      <span>图像: 动态共现网络 © 学术迁移实验室</span>
+      <span>图像: 动态共现网络 © Zuojie_Li</span>
     </div>
   </div>
 </div>
@@ -482,4 +482,4 @@ redirect_from:
   })();
 </script>
 
-> ✨ **Nature 封面风格说明**：动态背景模拟论文中的合作/共被引网络，粒子柔和排斥产生“引力涟漪”；卡片区域仿期刊论文摘要框，点击铅笔图标可自定义新站点链接，主按钮跳转新学术平台。整体配色、网格和刊头设计向《自然》期刊视觉体系致敬。
+> ✨ 
