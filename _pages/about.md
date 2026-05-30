@@ -38,7 +38,7 @@ redirect_from:
         <div class="card-label">▸ 永久访问地址 ◂</div>
         <div class="new-site-url" id="natureNewUrl">https://zuojie-li.github.io</div>
         <div class="button-group">
-          <a href="#" id="natureVisitBtn" class="primary-btn">[点击访问](https://zuojie-li.github.io) →</a>
+         <a href="https://zuojie-li.github.io" id="natureVisitBtn" class="primary-btn" target="_blank" rel="noopener noreferrer">访问新站点 →</a>
           <button id="natureEditBtn" class="edit-btn">永远相信 · 美好的事情即将发</button>
         </div>
         <p class="footer-note"></p>
