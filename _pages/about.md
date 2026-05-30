@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-# ✨ 网址停用，最新链接
-
 <div class="nature-cover">
   <canvas id="natureCanvas" class="nature-bg"></canvas>
   <div class="cover-overlay">
@@ -17,6 +15,12 @@ redirect_from:
       <span class="nature-logo">NATURE ACADEMIC</span>
       <span class="issue">访问网址迁移特刊 | 2026</span>
     </div>
+
+    <!-- ✨ 新增：居中提示横幅 -->
+    <div class="center-notice">
+      <span class="notice-icon">✨</span> 网址停用，最新链接 <span class="notice-icon">✨</span>
+    </div>
+
     <!-- 主视觉标题区 -->
     <div class="title-block">
       <h1 class="main-title">
@@ -32,18 +36,20 @@ redirect_from:
         <span class="doi-label">正式迁移公告 | DOI: 10.1038/s41586-026-00000-1</span>
       </div>
     </div>
+
     <!-- 新站点卡片（仿论文摘要框） -->
     <div class="site-card">
       <div class="card-inner">
         <div class="card-label">▸ 永久访问地址 ◂</div>
         <div class="new-site-url" id="natureNewUrl">https://zuojie-li.github.io</div>
         <div class="button-group">
-         <a href="https://zuojie-li.github.io" id="natureVisitBtn" class="primary-btn" target="_blank" rel="noopener noreferrer">访问新站点 →</a>
+          <a href="https://zuojie-li.github.io" id="natureVisitBtn" class="primary-btn" target="_blank" rel="noopener noreferrer">访问新站点 →</a>
           <button id="natureEditBtn" class="edit-btn">永远相信 · 美好的事情即将发生</button>
         </div>
         <p class="footer-note"></p>
       </div>
     </div>
+
     <!-- 底部期刊信息栏 -->
     <div class="footer-bar">
       <span>Springer Publishers Limited 2026</span>
@@ -62,7 +68,7 @@ redirect_from:
   .nature-cover {
     position: relative;
     width: 100%;
-    min-height: 700px;
+    min-height: 760px;
     background: #fefef7;
     border-radius: 20px;
     overflow: hidden;
@@ -77,21 +83,21 @@ redirect_from:
     width: 100%;
     height: 100%;
     display: block;
-    pointer-events: auto; /* 粒子接收交互 */
+    pointer-events: auto;
     z-index: 1;
   }
   .cover-overlay {
     position: relative;
     z-index: 2;
     width: 100%;
-    min-height: 700px;
+    min-height: 760px;
     background: rgba(254, 254, 247, 0.82);
     backdrop-filter: blur(2px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 2rem 2rem 1.2rem 2rem;
-    pointer-events: none; /* 大部分穿透，按钮区域单独恢复 */
+    pointer-events: none;
   }
   .journal-header {
     display: flex;
@@ -99,7 +105,7 @@ redirect_from:
     align-items: baseline;
     border-bottom: 2px solid #000;
     padding-bottom: 0.6rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     pointer-events: none;
   }
   .nature-logo {
@@ -116,9 +122,33 @@ redirect_from:
     color: #3a3a3a;
     font-weight: 500;
   }
+
+  /* ✨ 居中提示样式 */
+  .center-notice {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: linear-gradient(135deg, #f5e6d3, #fff0e0);
+    padding: 0.6rem 1rem;
+    margin: 0.5rem auto 0.5rem auto;
+    border-radius: 60px;
+    width: fit-content;
+    max-width: 90%;
+    border: 1px solid #e2c7a3;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+    pointer-events: none;
+    color: #b45f2b;
+    font-family: 'Times New Roman', serif;
+  }
+  .notice-icon {
+    font-size: 1.4rem;
+    margin: 0 10px;
+  }
+
   .title-block {
     text-align: center;
-    margin: 1.2rem 0 1.8rem;
+    margin: 0.8rem 0 1.2rem;
     pointer-events: none;
   }
   .main-title {
@@ -174,7 +204,7 @@ redirect_from:
   }
   .site-card {
     max-width: 520px;
-    margin: 1rem auto;
+    margin: 0.5rem auto 1rem;
     background: rgba(255, 255, 250, 0.96);
     border-radius: 28px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05), 0 0 0 1px #dce5ec;
@@ -256,22 +286,24 @@ redirect_from:
     color: #5a6e7c;
     border-top: 1px solid #dadfe5;
     padding-top: 1rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     pointer-events: none;
   }
   @media (max-width: 620px) {
-    .cover-overlay { padding: 1rem; min-height: 640px; }
+    .cover-overlay { padding: 1rem; min-height: 720px; }
     .main-title { font-size: 1.8rem; }
-    .site-card { margin: 1rem; padding: 1rem; }
+    .site-card { margin: 0.5rem; padding: 1rem; }
     .new-site-url { font-size: 0.7rem; }
-    .journal-header { margin-bottom: 1.5rem; }
+    .journal-header { margin-bottom: 0.8rem; }
     .nature-logo { font-size: 1.5rem; }
+    .center-notice { font-size: 1.1rem; padding: 0.3rem 0.8rem; }
+    .notice-icon { font-size: 1rem; margin: 0 5px; }
   }
 </style>
 
 <script>
   (function() {
-    // ---------- Nature 风格粒子网络 (极简科学可视化) ----------
+    // ---------- 粒子网络（完全保留）----------
     const canvas = document.getElementById('natureCanvas');
     if (!canvas) return;
     let ctx = canvas.getContext('2d');
@@ -280,27 +312,19 @@ redirect_from:
     let mouseX = null, mouseY = null;
     let animFrame;
     
-    // 可调参数 (Nature封面经典色调)
     const PARTICLE_COUNT = 105;
     const CONNECTION_DIST = 135;
     const MOUSE_RADIUS = 110;
     const REPULSION = 0.5;
     
-    // 新站点链接默认值
-    let currentUrl = "https://journal-naturehub.ac.cn";
+    let currentUrl = "https://zuojie-li.github.io";
     const urlSpan = document.getElementById('natureNewUrl');
     const visitBtn = document.getElementById('natureVisitBtn');
     const editBtn = document.getElementById('natureEditBtn');
     
     function updateUrlUI() {
       if (urlSpan) urlSpan.innerText = currentUrl;
-      if (visitBtn) {
-        visitBtn.onclick = (e) => {
-          e.preventDefault();
-          let finalUrl = currentUrl.startsWith('http') ? currentUrl : 'https://' + currentUrl;
-          window.open(finalUrl, '_blank');
-        };
-      }
+      if (visitBtn) visitBtn.href = currentUrl;
     }
     if (editBtn) {
       editBtn.addEventListener('click', () => {
@@ -313,7 +337,6 @@ redirect_from:
     }
     updateUrlUI();
     
-    // 初始化粒子
     function initParticles() {
       particles = [];
       for (let i = 0; i < PARTICLE_COUNT; i++) {
@@ -328,7 +351,6 @@ redirect_from:
       }
     }
     
-    // 绘制网格线（Nature 论文封面常见背景格）
     function drawGrid() {
       ctx.save();
       ctx.strokeStyle = "#e2e8f0";
@@ -346,7 +368,6 @@ redirect_from:
         ctx.lineTo(width, y);
         ctx.stroke();
       }
-      // 淡色原点装饰
       ctx.fillStyle = "#cbdbe6";
       for (let x = step/2; x < width; x += step) {
         for (let y = step/2; y < height; y += step) {
@@ -412,7 +433,6 @@ redirect_from:
         ctx.shadowColor = "rgba(86, 141, 179, 0.3)";
         ctx.fill();
         ctx.shadowBlur = 0;
-        // 内部高光
         ctx.beginPath();
         ctx.arc(p.x-0.8, p.y-0.8, p.radius*0.3, 0, Math.PI*2);
         ctx.fillStyle = "rgba(255, 255, 245, 0.9)";
@@ -481,4 +501,5 @@ redirect_from:
     animate();
   })();
 </script>
+
 
